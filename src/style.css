@@ -20,6 +20,7 @@ nav div{
 nav a{
     text-decoration: none;
     padding: 0 8px;
+    color: black;
 }
 
 nav img{
@@ -129,6 +130,13 @@ button, input, textarea{
 /* #------------media-queries------------# */
 
 @media (max-width: 900px){
+
+    nav a{
+        font-size: 14px;
+        padding: 0 4px;
+        color: black;
+    }
+
     main .sobre{
         display: flex;
         flex-direction: column;
