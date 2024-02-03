@@ -41,10 +41,12 @@ main .sobre{
     max-width: 100%;
     justify-content: center;
     padding: 40px 0;
+    align-items: center;
 }
 
 main .sobre .imagem-sobre{
-    max-width: 50%;
+    width: 50%;
+    text-align: center;
 }
 
 main .sobre .info-sobre{
@@ -62,6 +64,10 @@ main .lancamentos, main .concluidos{
     flex-flow: row wrap;
     margin: 50px 0;
     justify-content: space-around;
+}
+
+main .lancamentos div{
+    margin-bottom: 15px;
 }
 
 /* ------------Concluídos------------ */
@@ -91,14 +97,24 @@ footer .formulario{
 
 footer .formulario input{
     margin: 6px 0;
-    display: flex;
-    align-items: initial;
-    justify-content: flex-start;
+    padding: 4px;
+    display: table-cell;
+    vertical-align: top;
 }
 
-footer .formulario .txtarea{
+footer .formulario textarea{
     height: 150px;
+    padding: 4px;
+    resize: none;
+    margin-bottom: 6px;
 }
+
+button, input, textarea{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* #------------media-queries------------# */
 
 @media (max-width: 900px){
     main .sobre{
@@ -110,7 +126,7 @@ footer .formulario .txtarea{
     }
 
     main .sobre .imagem-sobre{
-        width: 200%;
+        width: 100%;
     }
     
     main .sobre .info-sobre{
