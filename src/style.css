@@ -49,6 +49,10 @@ main .sobre .imagem-sobre{
     text-align: center;
 }
 
+main .sobre .imagem-sobre img{
+    width: 100%;
+}
+
 main .sobre .info-sobre{
     display: flex;
     flex-direction: column;
@@ -70,10 +74,18 @@ main .lancamentos div{
     margin-bottom: 15px;
 }
 
+main .lancamentos div img{
+    width: 100%;
+}
+
 /* ------------Concluídos------------ */
 
 main .concluidos .image1{
     padding: 2px;
+}
+
+main .concluidos .image1 img{
+    width: 100%;
 }
 
 /* ------------Contato------------ */
@@ -135,5 +147,13 @@ button, input, textarea{
         max-width: 100%;
         padding: 5%;
         font-size: 10%;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 16px;
     }
 }
