@@ -1,0 +1,123 @@
+/* ------------Navegação------------ */
+
+nav{
+    margin-bottom: 50px;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+nav img{
+    width: 100%;
+    height: 600px;
+}
+
+h2{
+    text-align: center;
+    font-size: 65px;
+    padding: 40px 0;
+}
+
+/* ------------Sobre------------ */
+
+main .sobre{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+main .sobre .imagem-sobre{
+    max-width: 50%;
+}
+
+main .sobre .info-sobre{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 5%;
+    font-size: 10%;
+}
+
+/* ------------Lançamentos------------ */
+
+main .lancamentos, main .concluidos{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 0;
+    justify-content: space-around;
+}
+
+/* ------------Concluídos------------ */
+
+main .concluidos .image1{
+    padding: 2px;
+}
+
+/* ------------Contato------------ */
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+footer .formulario{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 0 25%;
+    margin: 10px 0;
+}
+
+footer .formulario input{
+    margin: 6px 0;
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+}
+
+footer .formulario .txtarea{
+    height: 150px;
+}
+
+@media (max-width: 900px){
+    main .sobre{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 40px 0;
+    }
+
+    main .sobre .imagem-sobre{
+        width: 200%;
+    }
+    
+    main .sobre .info-sobre{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 5%;
+        font-size: 10%;
+    }
+}
