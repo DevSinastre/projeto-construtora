@@ -15,6 +15,7 @@ nav div{
     justify-content: center;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 nav a{
@@ -85,8 +86,8 @@ main .concluidos .image1{
 }
 
 main .concluidos .image1 img{
-    max-width: 600px;
-    max-height: 400px;
+    width: 600px;
+    height: 400px;
 }
 
 /* ------------Contato------------ */
@@ -161,6 +162,10 @@ button, input, textarea{
         width: 100%;
     }
 
+    footer .formulario{
+        padding: 0 10%;
+    }
+
     h2{
         font-size: 35px;
     }
@@ -168,4 +173,6 @@ button, input, textarea{
     p{
         font-size: 16px;
     }
+
+
 }
