@@ -25,7 +25,6 @@ nav a{
 
 nav img{
     width: 100%;
-    height: 600px;
 }
 
 h2{
@@ -86,7 +85,8 @@ main .concluidos .image1{
 }
 
 main .concluidos .image1 img{
-    width: 100%;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 /* ------------Contato------------ */
@@ -155,6 +155,10 @@ button, input, textarea{
         max-width: 100%;
         padding: 5%;
         font-size: 10%;
+    }
+
+    main .concluidos .image1 img{
+        width: 100%;
     }
 
     h2{
